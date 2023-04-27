@@ -1,0 +1,37 @@
+/* Theme colors */
+$sand: #edc9af;
+$night: #161613;
+$sea: #54865e;
+$rufous: #a12714;
+/* make the customizations */
+$theme-colors: (
+    "primary": $rufous,
+    "secondary": $sea,
+    "dark": $night,
+    "light": $sand
+);
+$font-stack: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+$text-color:#292b2c;
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";
+
+
+
+body {
+  font-family: $font-stack;
+  color: $night;
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 1.5;
+  line-height: 1.5;
+ background-image: radial-gradient(73% 147%, #EADFDF 59%, #ECE2DF 100%), radial-gradient(91% 146%, rgba(255,255,255,0.50) 47%, rgba(0,0,0,0.50) 100%);
+ background-blend-mode: screen;;
+  height: 100%;
+    width: 100%;
+    padding: 0;
+
+}
+.copyright{
+    font-size: .75rem;
+}

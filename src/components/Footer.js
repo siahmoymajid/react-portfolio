@@ -1,15 +1,13 @@
-import { Navbar } from "react-bootstrap";
-import React from 'react'
+import { Container, Row, Col } from 'react-bootstrap'
 
-const Footer = () => {
+function Footer() {
   return (
-<Navbar fixed="bottom" >
-  footer is here </Navbar>
-  )
+    <Container className='mt-auto text-dark font-size-sm mb-3 copyright'>
+      <Row className='d-flex justify-content-center align-items-center'>
+        <Col>Copyright &copy; Sia Majid</Col>
+      </Row>
+    </Container>
+  );
 }
 
-export default Footer
-
-
-
-
+export default Footer;

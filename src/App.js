@@ -37,7 +37,7 @@ function App() {
 
             </div>
           </Col>
-          <Col md={6} className="bg-dark text-light vh-100 d-flex flex-column py-5 pe-5 ps-0 ">
+          <Col md={6} className="bg-dark text-light h-100 d-flex flex-column py-5 pe-5 ps-0 ">
             <div className="d-flex flex-column justify-content-between align-items-baseline border-5 border-top border-bottom border-end border-light h-100">
               <Routes>
                   <Route path="about" element={<About title={data.pages.about} bio={bio} avatar={picture} />} />

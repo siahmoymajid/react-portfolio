@@ -10,25 +10,25 @@
         "projects": {
             "projects": [
                 {
-                    "title": "Project 3",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "title": "MatchMaker",
+                    "description": "This Dating App is a comprehensive online dating platform that allows users to find their perfect match.Our dating app is a modern, user-friendly platform designed to help singles find love and connect with like-minded individuals.",
                     "image": "project-3.jpg",
-                    "url": "",
-                    "github": ""
+                    "url": "https://matchmakerdating.herokuapp.com/",
+                    "github": "https://github.com/JakeDish/date-app"
                 },
                 {
-                    "title": "Project 2",
+                    "title": "Auto Self Help",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     "image": "project-2.jpg",
-                    "url": "",
-                    "github": ""
+                    "url": "https://agile-ocean-74686.herokuapp.com/",
+                    "github": "https://github.com/PintoDrop/autoselfhelp"
                 },
                 {
-                    "title": "Project 1",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+                    "title": "Hotels On Demand",
+                    "description": "This application will help the user that is traveling find a hotel for their desired location. This application will also allow the user to see what the best food options are near that hotel.",
                     "image": "project-1.jpg",
-                    "url": "",
-                    "github": ""
+                    "url": "https://thandyn.github.io/Hotels-on-Demand/",
+                    "github": "https://github.com/thandyn/Hotels-on-Demand"
                 }
             ]
         },

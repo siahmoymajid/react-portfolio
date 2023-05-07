@@ -8,7 +8,6 @@
             "email": "smajid2008@hotmail.com"
         },
         "projects": {
-            "title": "Projects",
             "projects": [
                 {
                     "title": "Project 3",
@@ -18,24 +17,24 @@
                     "github": ""
                 },
                 {
-                    "title": "The Auto Self Help",
-                    "description": "For this project we decided to create an application that allows the user to create a login and then post about issues with their cars. When the user posts about their car issue then they are able to recieve feedback from other users that will comment on the post. The user is able to create a sign up with their email and log in to see what other users have posted. The user can also interact with the application by commenting on posts by other users. We also worked to incorporate a random password generator the user can use when they sign up.",
+                    "title": "Project 2",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     "image": "project-2.jpg",
-                    "url":"https://agile-ocean-74686.herokuapp.com/",
-                    "github":"https://github.com/PintoDrop/autoselfhelp"
+                    "url": "",
+                    "github": ""
                 },
                 {
-                    "title": "Hotels On Demand",
-                    "description": "This application will help the user that is traveling find a hotel for their desired location. This application will also allow the user to see what the best food options are near that hotel. For this application we incorporated two API's with one used to find a hotel by city and the second used to find nearby resturants to that hotel. The user will be able to find where they can stay and where they can eat in this one application.",
+                    "title": "Project 1",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
                     "image": "project-1.jpg",
-                    "url":"https://thandyn.github.io/Hotels-on-Demand/",
-                    "github":"https://github.com/thandyn/Hotels-on-DemandLinks"
+                    "url": "",
+                    "github": ""
                 }
             ]
         },
         "resume": {
             "title": "Resume",
-            "resume": "SiaMajid-resume.docx"
+            "resume": "resume.pdf"
         },
         "skills": {
             "title": "Skills",
@@ -43,13 +42,13 @@
         },
         "socials": 
             {
-                "github": "https://github.com/siahmoymajid",
-                "linkedin": "https://www.linkedin.com/in/siahmoymajid/"
+                "github": "https://github.com",
+                "linkedin": "https://linkedin.com"
             },
         "pages": {
                 "about": "About",
-                "projects": "Projects",
-                "resume": "Resume",
+                "portfolio": "Portfolio",
+                "resume": "Professional Experience",
                 "contact": "Contact"
         },
         "contact": {

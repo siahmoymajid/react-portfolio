@@ -1,24 +1,32 @@
 import React from 'react'
-import { Image, Col, Row } from 'react-bootstrap'
+import { Col, Card, Button, ButtonGroup } from 'react-bootstrap'
 
-const Project = ({ project, i}) => {
-    console.log(project);
+const Project = ({ project, i }) => {
+  console.log(project);
   return (
     project &&
-    <Row className=' my-3 text-end'>
-      
-      <Col xs={10} md={6}>
-        <h3>{project.title}</h3>
-        <a href={project.url} target="_blank" rel="noopener noreferrer" className='mx-3 link-secondary'>Demo</a>
-        <a href={project.github} target="_blank" rel="noopener noreferrer" className='link-secondary'>GitHub</a>
-        <p>{project.description}</p>
-     </Col>
-     <Col xs={10} md={6}>
-      <Image fluid src={`/assets/images/${project.image}`} />
-      </Col>
-    </Row>
-   
+
+
+    <Col>
+      <Card bg="dark" className=" shadow-10 p-2 h-100">
+        <Card.Header className='display text-uppercase text-center  text-light fs-5'>  {project.title}</Card.Header>
+        <Card.Img className='sepia' variant="bottom" src={`/assets/images/${project.image}`} />
+        <Card.Body>
+
+          <ButtonGroup className="mb-2 w-100">
+            <Button href={project.url} target="_blank"  rel="noopener noreferrer" variant="secondary" className='w-50 border-light border-2'>Demo</Button>
+            <Button href={project.github} target="_blank" rel="noopener noreferrer" variant="secondary" className='w-50 border-light border-2'>GitHub</Button>
+          </ButtonGroup>
+          <Card.Text>
+            {project.description}
+          </Card.Text>
+        </Card.Body>
+      </Card>
+    </Col>
+
+
+
   )
 }
 
-export default Project
+export default Project;
